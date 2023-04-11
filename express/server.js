@@ -31,7 +31,7 @@ router.get('/', (req, res) => {
 });
 router.get('/another', (req, res) => res.json({ route: req.originalUrl }));
 
-router.get('/name', (req, res) => 'dear john';
+router.get('/name', (req, res) => 'dear john');
 
 router.post('/', (req, res) => res.json({ postBody: req.body }));
 
